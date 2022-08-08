@@ -19,3 +19,8 @@ document.getElementById('someText').innerHTML = 'Hey there';
 
 // add html code to JS page. This will add text to the corresponding element with an ID of thisText
 document.getElementById('thisText').innerHTML = 'Sample Heading 1';
+
+// allowing age to be stored
+var age = prompt('What is your age?');
+// add age variable to other element
+document.getElementById('ageText').innerHTML = 'My age is ' + age + ' and you better believe it!';
