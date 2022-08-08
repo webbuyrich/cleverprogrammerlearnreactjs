@@ -38,3 +38,20 @@ console.log(num1);
 
 console.log(2 *40);
 
+/**--------------------------------------- */
+
+/*
+FUNCTIONS
+    1. Create Function
+    2. Call the Function
+*/
+
+// Create Function
+function fun (){
+    alert('this is a function');
+}
+// Call the function
+fun();
+
+
+
