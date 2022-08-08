@@ -55,3 +55,22 @@ fun();
 
 
 
+// create function that takes a name and returns hello followed by your name
+/**
+ * For example
+ * Name: "Richard"
+ * Return: "Hello Richard"
+ */
+
+ function greeting(){
+    // ask and store a person's name
+    var name = prompt('What is your name');
+    // add name with greeting
+    var result = 'Hello ' + name;
+    // display result
+    console.log(result);
+
+}
+// Call the function
+greeting()
+
