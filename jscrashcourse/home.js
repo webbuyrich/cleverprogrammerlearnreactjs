@@ -20,7 +20,21 @@ document.getElementById('someText').innerHTML = 'Hey there';
 // add html code to JS page. This will add text to the corresponding element with an ID of thisText
 document.getElementById('thisText').innerHTML = 'Sample Heading 1';
 
-// allowing age to be stored
-var age = prompt('What is your age?');
-// add age variable to other element
-document.getElementById('ageText').innerHTML = 'My age is ' + age + ' and you better believe it!';
+// ALLOWING AGE TO BE STORED
+// var age = prompt('What is your age?');
+// // add age variable to other element
+// document.getElementById('ageText').innerHTML = 'My age is ' + age + ' and you better believe it!';
+
+// NUMBERS IN JAVASCRIPT
+var num1 = 20;
+// increase number by 1
+num1 = num1 + 1;
+num1++;
+console.log(num1);
+
+//decrease number by 1
+num1--;
+console.log(num1);
+
+console.log(2 *40);
+
