@@ -45,11 +45,11 @@ function playGame(){
 function displayResult(numberGuess){
   // check if numberGuess is higher, low, or correct
   if ( numberGuess > correctNumber ){
-    console.log('too high');
+    showNumberAbove();
   } else if ( numberGuess < correctNumber ){
-    console.log('too low');
+    showNumberBelow();
   } else if ( numberGuess == correctNumber ){
-    console.log('correct');
+    showYouWon();
   }
 }
 
