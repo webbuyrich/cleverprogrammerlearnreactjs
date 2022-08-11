@@ -1,17 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1 id="thisText"></h1>
-    <p id="someText"></p>
-    <p id="ageText"></p>
-
-    <script>
-        let teams = `[
+[
     {
     "city": "Arizona",
     "name": "Cardinals",
@@ -118,12 +105,12 @@
     "div": "South"
     },
     {
-    "city": "Kansas City",
-    "name": "Chiefts",
-    "abr": "KC",
-    "conf": "AFC",
-    "div": "West"
-    },
+    "city": "Kansas "City"",
+    "name": "Chiefts","
+   "" ab"r: "KC","
+  " " con"f: "AFC","
+   "" di"v: "West""
+  "  },
     {
     "city": "Miami",
     "name": "Dolphins",
@@ -236,11 +223,4 @@
     "conf": "NFC",
     "div": "East"
     }
-    ]`
-    console.log(JSON.parse(teams))
-    </script>
-
-    <!-- <script src="home.js"></script> -->
-    <!-- <script src="conditionals.js"></script> -->
-</body>
-</html>
+    ]
