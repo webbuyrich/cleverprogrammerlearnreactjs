@@ -17,6 +17,7 @@
 let correctNumber = getRandomNumber();
 
 
+
 window.onload = function() {
     document.getElementById("number-submit").addEventListener("click", playGame);
     document.getElementById("restart-game").addEventListener("click", initGame);
@@ -29,8 +30,18 @@ window.onload = function() {
 function playGame(){
   // *CODE GOES BELOW HERE *
   let numberGuess = document.getElementById('number-guess').value;
+  // check if numberGuess is higher, low, or correct
+  if ( numberGuess > correctNumber ){
+    console.log('too high');
+  } else if ( numberGuess < correctNumber ){
+    console.log('too low');
+  } else if ( numberGuess == correctNumber ){
+    console.log('correct');
+  }
   
 }
+
+
 
 /**
  * Show the result for if the guess it too high, too low, or correct
